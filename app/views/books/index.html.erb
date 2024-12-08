@@ -24,11 +24,17 @@
 <h2>New book</h2>
 
 <%= form_with model: Book.new do |f| %>
-  <label>Title</label>
-  <%= f.text_field :title %>
+  <div class="classlabel">
+    <label>Title</label>
+    <%= f.text_field :title %>
+  </div>
 
-  <label>Body</label>
-  <%= f.text_area :body %>
+  <div class="classlabel">
+    <label>Body</label>
+    <%= f.text_area :body %>
+  </div>
 
-  <%= f.submit 'Create Book' %>
+  <div class="button">
+    <%= f.submit 'Create Book' %>
+  </div>
 <% end %>
