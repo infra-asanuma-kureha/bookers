@@ -50,3 +50,9 @@ label{
 .button,.classlabel{
   margin-bottom: 10px;
 }
+
+.error-box{
+  width: 400px;
+  background-color: white;
+  border: 2px soild red;
+}
